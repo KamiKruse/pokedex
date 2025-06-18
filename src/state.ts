@@ -51,7 +51,7 @@ export function initState(): State {
       },
       map: {
         name: 'map',
-        description: 'Maps through the NEXT set of locations',
+        description: 'START exploring. If on the first page, this command maps through the NEXT set of locations',
         callback: commandMap,
       },
       mapback: {
