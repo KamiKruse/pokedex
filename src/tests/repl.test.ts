@@ -18,6 +18,10 @@ describe.each([
   {
     input: 'hello; world ',
     expected: ['hello', 'world'],
+  },
+  {
+    input: 'explore canalave-city-area ',
+    expected: ['explore', 'canalave-city-area'],
   }
 ])('cleanInput($input)', ({ input, expected }) => {
   test(`Expected: ${expected}`, () => {
